@@ -1,0 +1,9 @@
+application: braided-woods-538
+version: 6
+runtime: python27
+threadsafe: no
+api_version: 1
+
+handlers:
+- url: .*
+  script: main.py
